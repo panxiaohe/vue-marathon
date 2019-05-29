@@ -1,0 +1,32 @@
+﻿/* CSS Reset */
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, button, input, textarea, th, td { margin: 0; padding: 0; }
+body, button, input, select, textarea { font-family: "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "STHeiti", "WenQuanYi Micro Hei", "MicrosoftYaHei-Bold", SimSun, sans-serif; font-size: 14px; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 100%; }
+ul, ol, dl, li { list-style: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+fieldset, img { border: none; }
+button, input, select, textarea { font-size: 100%; }
+table { border-collapse: collapse; border-spacing: 0; }
+html { overflow-y: scroll; }
+input, select { font-size: 14px; }
+em, th, i { font-style: normal; font-weight: normal; }
+textarea { resize: none; margin: 0; }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: ""; clear: both; height: 0; }
+.clearfix { *zoom: 1; }
+
+/*定位*/
+.m0a { margin: 0 auto; }
+.tl { text-align: left; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+.fl { float: left; }
+.fr { float: right; }
+.pr { position: relative; }
+.pa { position: absolute; }
+.df { display: -webkit-flex; display: -moz-flex; display: flex; display: -ms-flexbox; }
+
+/*色值*/
+.cfff{
+  color: #fff;
+}

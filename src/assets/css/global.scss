@@ -1,0 +1,156 @@
+.marathon{
+  min-width: 1440px;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.main-content{
+  width: 1364px/1920px *100%;
+  /*min-width: 1200px;*/
+  margin: 0 auto;
+}
+
+
+.header{
+  width: 100%;
+  height: 68px;
+  background: url("../images/bg_header.png") no-repeat 18% #fff;
+
+  .logo{
+    float: left;
+    width: 15%;
+
+    a{
+      display: block;
+    }
+    img{
+      width: 90%;
+    }
+  }
+
+  .nav{
+    float: left;
+    //width: 65%;
+
+    li{
+      float: left;
+      margin: 0 20px;
+
+      a{
+        display: inline-block;
+        line-height: 68px;
+        font-size: 14px;
+        color: #000;
+      }
+    }
+  }
+
+  .user{
+    float: right;
+    text-align: right;
+    width: 20%;
+    min-width: 220px;
+
+    .divide-line{
+      display: inline-block;
+      width:1px;
+      height:64px;
+      background:linear-gradient(360deg,#fff 0%, #D8D8D8 54%, #fff 100%);
+      margin: 0 10px 0 5px;
+      vertical-align: middle;
+      opacity:0.5;
+    }
+
+    a{
+      line-height: 68px;
+      color: #1E60D2;
+      margin-right: 5px;
+    }
+    .language:after{
+      content: '';
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border:5px solid;
+      border-color: transparent transparent transparent #1E60D2;
+      vertical-align: middle;
+      margin-left: 3px;
+    }
+    .user-info{
+      display: inline-block;
+
+      .btn{
+        margin: 0 5px;
+        padding: 5px 10px;
+        border:1px solid;
+        border-image:linear-gradient(135deg, #484DDB, #3CA7F5) 1 1;
+        color: #4568E3;
+
+      }
+      .btn-login{
+        background: linear-gradient(135deg, #484DDB 0%, #3CA7F5 100%);
+        color: #fff;
+      }
+    }
+  }
+}
+
+.footer{
+  padding: 30px 0 20px;
+  background-color: #282943;
+  font-size: 18px;
+  color: #fff;
+  .copyright{
+    font-size: 14px;
+    color: rgba(255,255,255,.7);
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .footer-logo{
+    float: left;
+    width: 20%;
+    margin-top: 90px;
+    a{
+      display: block;
+      img{
+        width: 100%;
+      }
+    };
+  }
+
+  .footer-message{
+    float: left;
+    width: 40%;
+    padding: 0 0 0 3%;
+    box-sizing: border-box;
+    h2{
+      font-size: 30px;
+    }
+    h3{
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    p span{
+      margin-right: 10px;
+    }
+  }
+
+  .footer-qrcode{
+    float: right;
+    width: 40%;
+    .qrcode{
+      float: left;
+      width: 34%;
+      margin: 50px 8% 0;
+      text-align: center;
+      img{
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+
